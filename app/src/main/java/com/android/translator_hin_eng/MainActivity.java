@@ -248,7 +248,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
                 });
     }
-
     void translateEng(String text) {
         hindiEnglishTranslator.translate(text)
                 .addOnSuccessListener(new OnSuccessListener<String>() {
